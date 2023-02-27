@@ -1,4 +1,4 @@
-PAG PRINCIPALA GATA
+
 SIMPLIFICA HEADER-UL IN FELUL URMATOR:
     despre noi:
         *pagina cine suntem noi al site-ului
