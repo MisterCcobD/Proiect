@@ -1,0 +1,57 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: linear-gradient(to BOTTOM, #30c67c, #82f4b1);
+    margin: 1%;
+    padding: 0%;
+}
+#welcome{
+    margin-bottom: 10em;
+    width: 100%;
+}
+.bloc{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 10em;
+}
+/* ceva nu e bine aici, s-ar putea sa le dau id-uri div-urilor */
+.div1{
+    background-image: url("./img/cool-panurama.jpg");
+}
+.div2{
+    background-image: url("./img/cool-panurama.jpg");
+}
+.div3{
+    background-image: url("./img/cool-panurama.jpg");
+}
+.bloc div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center  ;
+    font-size: 2ch;
+    border-radius: 20px;
+    max-width: 250px;
+    max-height: 560px;
+}
+.bloc div img{
+    width: 10%;
+}
+.bloc div a{
+    color: black;
+    text-decoration: none;
+}
+.bloc div a:hover{
+    text-shadow: 0 0 5px black;
+    color: white;
+    text-decoration: none;
+}
+table{
+    /* border: 1px solid blue; */
+    margin: auto;
+}
+/* big screen */
+/* @media screen and (min-width: 720px) */

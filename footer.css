@@ -1,0 +1,42 @@
+
+footer{
+    box-sizing: border-box;
+}
+form{
+    text-align: center;
+    /* padding: 1em; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+footer input{
+    text-align: center;
+    opacity: 0.8;
+    margin: 0.5em;
+    font-size: 2ch;
+}
+footer textarea{
+    opacity: 0.8;
+    text-align: center;
+    font-size: 2ch;
+}
+footer input:hover{
+    opacity: 1;
+    font-size: 2.1ch;
+}
+footer textarea:hover{
+    opacity: 1;
+    font-size: 2.1ch;
+}
+footer input:focus{
+    opacity: 1;
+    font-size: 2.1ch;
+}
+footer textarea:focus{
+    opacity: 1;
+    font-size: 2.1ch;
+}
+footer a{
+    text-decoration: none;
+    color: red;
+}
