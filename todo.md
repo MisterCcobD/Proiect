@@ -15,3 +15,12 @@ SIMPLIFICA HEADER-UL IN FELUL URMATOR:
     *echipamente
 ALTE PAGINI:
 termeni si conditii spre exemplu sa nu fie vizibile
+
+
+De facut pana Marti:
+    Imaginea #welcome sa dispara sa sa fie inlocuita cu ceva mai prietenos si calitate mai mare
+    Copiaza navigatia si pune-o sus de tot in header
+    Fontul schimbat, micsorat si schimba culoarea
+    Corecteaza footer-ul si adauga in stanga si in dreapta un CONTACT, copyright si inca ceva
+                                                            oras:
+                                                            tel&email
