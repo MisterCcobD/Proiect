@@ -24,3 +24,31 @@ De facut pana Marti:
     Corecteaza footer-ul si adauga in stanga si in dreapta un CONTACT, copyright si inca ceva
                                                             oras:
                                                             tel&email
+<!--  -->
+IMPART NAV-UL
+            Pe site este asa:
+ACASA
+PAGINI - despre noi
+       - echipa
+       - clinici
+       - tratamente si costuri
+       - echipamente
+       - politica cookies
+       - termeni si conditii
+BLOG
+CONTACT
+AUTENTIFICARE
+<!--  -->
+            Eu voi face asa:
+SERVICII
+        - tratamente - pagina va contine o lista aratoasa despre specialitatile lor si fiecare obiect din lista va duce la o pagina cu descrierea serrviciilor si un tabel cu preturi
+        - echipamente - o pagina in care vor fi prezentate echipamentele si utilitatea fieecaruia
+CONTACT
+IMAGINEA TE DUCE LA PAGINA PRINCIPALA
+BLOG-in josul paginii poate pune si un time-line al firmei (din  2017 asta din 2018 cealalta)
+        - despre noi
+        - echipa
+
+OPT4
+        - cookies
+        - T&C
