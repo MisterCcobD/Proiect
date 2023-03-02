@@ -13,7 +13,11 @@ body{
     flex-wrap: wrap;
     margin-bottom: 1em;
 }
-/* ceva nu e bine aici, s-ar putea sa le dau id-uri div-urilor */
+#prezentare{
+    width: 100%;
+    text-align: center;
+    display: flex;
+}
 .div1{
     background-image: url("./img/cool-panurama.jpg");
 }
