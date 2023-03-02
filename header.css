@@ -33,6 +33,8 @@ ul img:hover{
     }
     header img{
         width: 30%;
+        position: relative;
+        left: 30%;
         
     }
     .nav2{
@@ -55,5 +57,7 @@ ul img:hover{
     }
     .nav2 img{
         width: 30%;
+        position: relative;
+        left: 30%;
     }
 }
