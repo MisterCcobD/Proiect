@@ -1,0 +1,47 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+nav img{
+    width: 50%;
+}
+nav img:hover{
+    animation-name: invarte;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+}
+a:hover{
+    text-shadow: blue 1px 2px 3px;
+}
+nav ul{
+    margin: 0%;
+    padding: 0%;
+}
+nav li{
+    list-style-type: none;
+    display: none;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+}
+nav h3:hover ~ li{
+    display: block;
+}
+@keyframes invarte {
+    from{
+        transform: rotate(-5deg);
+    }
+    to{
+        transform: rotate(5deg);
+    }
+    
+}
