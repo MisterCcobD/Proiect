@@ -61,3 +61,5 @@ BLOG-in josul paginii poate pune si un time-line al firmei (din  2017 asta din 2
 OPT4
         - cookies
         - T&C
+
+RAZVAN AI AVUT PROBLEMA ASTA CU HEADER-UL? HEADER.CSS LINIA 10 VEZI IN BROWSER
