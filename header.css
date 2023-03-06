@@ -1,10 +1,11 @@
 
 .nav1{
+    position: relative;
+    top: 1em;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin: 0 0 5em 0;
 }
 .nav1 div{
     height: 35vh;
