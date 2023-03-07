@@ -1,6 +1,7 @@
 
 .nav1{
-    position: relative;
+    /* background-color: rgba(13, 13, 13, 0.382); */
+    position: absolute;
     top: 1em;
     width: 100%;
     display: flex;
@@ -8,7 +9,7 @@
     align-items: center;
 }
 .nav1 div{
-    height: 35vh;
+    height: 50vh;
     z-index: 999;
     width: 100%;
     text-align: center;
