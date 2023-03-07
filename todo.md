@@ -61,3 +61,10 @@ BLOG-in josul paginii poate pune si un time-line al firmei (din  2017 asta din 2
 T&c
 
 RAZVAN AI AVUT PROBLEMA ASTA CU HEADER-UL? HEADER.CSS LINIA 10 VEZI IN BROWSER
+
+
+FA DRAGUT
+schimba header, nu H2 si nu in div
+pune poza la carduri
+si rezolva header-ul
+cauta ceva dragut
