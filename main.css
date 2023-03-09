@@ -2,7 +2,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background: linear-gradient(to BOTTOM, #93C6E7, #B9F3FC);
+    background: linear-gradient(to top, #93C6E7, #B9F3FC);
     margin: 1%;
     padding: 0%;
 }
@@ -11,7 +11,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin: 1em 0em 1em 0em;
+    margin: 5em 0em 5em 0em;
 }
 #prezentare{
     width: 100%;
