@@ -1,16 +1,17 @@
-
 .nav1{
-    position: absolute;
-    top: 1em;
-    width: 100%;
+    margin-top: 2em;
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    flex-basis: 20%;
 }
-.nav1 div{
-    height: 50vh;
-    width: 100%;
-    text-align: center;
+.nav1 img:hover{
+    animation-name: shake;
+    animation-duration: 0.2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 .nav1 a{
     color: rgb(0, 0, 0);
@@ -21,44 +22,27 @@
 }
 .nav1 img{
     width: 30%;
-}
-.nav1 img:hover{
-    animation-name: shake;
-    animation-duration: 0.25s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+    position: relative;
+    left: 15%;
 }
 h2{
-    font-size: 130%;
+    font-size: 100%;
     color: black;
+}
+ul,li{
+    list-style-type: none;
+}
+ul a{
+    font-size: 1.5em;
+}
+.drop:hover .obt{
+    display: block;
+    position: absolute;
 }
 .obt{
     background-color: rgba(255, 255, 255, 0.524);
     display: none;
 }
-ul{
-    list-style-type: none;
-}
-ul a{
-    font-size: 3ch;
-}
-.drop:hover .obt{
-    display: block;
-}
-/* .nav1{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-ul{
-    display: none;
-}
-h2:hover ~ ul{
-    display: block;
-} */
 @keyframes shake {
     from{
         transform: rotate(-5deg);

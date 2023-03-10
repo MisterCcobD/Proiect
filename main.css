@@ -3,7 +3,7 @@ html{
 }
 body{
     background: linear-gradient(to top, #93C6E7, #B9F3FC);
-    margin: 1%;
+    margin: 0%;
     padding: 0%;
 }
 .bloc{
@@ -11,7 +11,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin: 5em 0em 5em 0em;
+    margin: 10em 0em 5em 0em;
 }
 #prezentare{
     width: 100%;
@@ -19,23 +19,25 @@ body{
     display: flex;
 }
 .div1{
-    background-image: url("./img/cool-panurama.jpg");
+    background-image: url("./img/front1.avif");
+    background-size: cover;
 }
 .div2{
-    background-image: url("./img/cool-panurama.jpg");
+    background-image: url("./img/front2.avif");
+    background-size: cover;
 }
 .div3{
-    background-image: url("./img/cool-panurama.jpg");
+    background-image: url("./img/front3.jpeg");
+    background-size: cover;
 }
 .bloc div{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
     flex-direction: column;
-    gap: 5px;
-    text-align: center  ;
-    font-size: 1.7ch;
+    gap: 1em;
+    text-align: center;
     border-radius: 20px;
-    max-width: 250px;
+    width: 300px;
     height: 480px;
 }
 .bloc div img{
@@ -43,17 +45,18 @@ body{
 }
 .bloc div h3{
     color: black;
+    font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-shadow: rgb(92, 208, 92) 1px 2px 2px;
 }
 .bloc div p{
     margin: auto;
-    max-width: 200px;
-    color: whitesmoke;
+    color: rgb(0, 0, 0);
 }
 .bloc div a{
+    font-weight: bold;
     font-style: oblique;
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 .bloc div a:hover{
