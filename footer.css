@@ -1,42 +1,57 @@
 
 footer{
-    box-sizing: border-box;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 form{
     text-align: center;
-    /* padding: 1em; */
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-footer input{
+input{
     text-align: center;
     opacity: 0.8;
     margin: 0.5em;
     font-size: 2ch;
 }
-footer textarea{
+textarea{
     opacity: 0.8;
     text-align: center;
     font-size: 2ch;
 }
-footer input:hover{
+input:hover{
     opacity: 1;
-    font-size: 2.1ch;
+    transform: scale(1.1);
+    transition: 0.1s;
 }
-footer textarea:hover{
+select{
+    opacity: 0.8;
+    font-size: 2ch;
+}
+select:hover{
     opacity: 1;
-    font-size: 2.1ch;
+    transform: scale(1.1);
+    transition: 0.1s;
 }
-footer input:focus{
+textarea:hover{
     opacity: 1;
-    font-size: 2.1ch;
+    transform: scale(1.1);
+    transition: 0.1s;
 }
-footer textarea:focus{
+input:focus{
     opacity: 1;
-    font-size: 2.1ch;
+    transform: scale(1.1);
+    transition: 0.1s;
 }
-footer a{
+textarea:focus{
+    opacity: 1;
+    transform: scale(1.1);
+    transition: 0.1s;
+}
+a{
     text-decoration: none;
     color: red;
 }
