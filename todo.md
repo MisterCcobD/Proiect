@@ -68,3 +68,5 @@ schimba header, nu H2 si nu in div
 pune poza la carduri
 si rezolva header-ul
 cauta ceva dragut
+
+URMATORUL PAS - FA FOOTER-UL DRAGUT!
