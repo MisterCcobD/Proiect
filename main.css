@@ -13,11 +13,6 @@ body{
     flex-wrap: wrap;
     margin: 10em 0em 5em 0em;
 }
-#prezentare{
-    width: 100%;
-    text-align: center;
-    display: flex;
-}
 .div1{
     background-image: url("./img/front1.avif");
     background-size: cover;
