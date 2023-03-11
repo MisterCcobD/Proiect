@@ -1,4 +1,5 @@
 .nav1{
+    background-color: #b6fffd25;
     margin-top: 2em;
     display: flex;
     flex-direction: row;
@@ -30,18 +31,30 @@ h2{
     color: black;
 }
 ul,li{
+    margin: 0%;
+    padding: 0%;
     list-style-type: none;
+}
+ul:hover{
+    background-color: #b6fffd;
+}
+li:hover{
+    background-color: #b6fffd;
 }
 ul a{
     font-size: 1.5em;
 }
 .drop:hover .obt{
     display: block;
-    position: absolute;
+    position: fixed;
+    /* left: 12%; */
 }
 .obt{
-    background-color: rgba(255, 255, 255, 0.524);
+    background-color: rgba(255, 255, 255, 0.169);
     display: none;
+}
+.obt li:hover{
+    background-color: rgba(255, 255, 255, 0.452);
 }
 @keyframes shake {
     from{
