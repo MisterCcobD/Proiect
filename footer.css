@@ -5,11 +5,6 @@ footer{
     flex-direction: row;
     justify-content: space-around;
 }
-#rezultat{
-    outline: 10px pink dotted;
-    padding: 1%;
-    text-align: center;
-}
 form{
     text-align: center;
     display: flex;
