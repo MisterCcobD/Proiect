@@ -3,7 +3,12 @@ footer{
     height: 600px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
+}
+#rezultat{
+    outline: 10px pink dotted;
+    padding: 1%;
+    text-align: center;
 }
 form{
     text-align: center;
