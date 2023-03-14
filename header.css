@@ -41,18 +41,18 @@
         list-style-type: none;
     }
     ul:hover,li:hover{
-        background-color: #90fffb;
+        background-color: rgba(255, 255, 255, 0.5);
     }
     .drop:hover .obt{
         display: block;
         position: fixed;
     }
     .obt{
-        background-color: rgba(255, 255, 255, 0.346) !important;
+        background-color: rgba(255, 255, 255, 0.3) !important;
         display: none;
     }
     .obt li:hover{
-        background-color: rgba(255, 255, 255, 0.496);
+        background-color: rgba(255, 255, 255, 0.4);
     }
     @keyframes shake {
         from{
