@@ -1,7 +1,7 @@
 
 body{
     background: linear-gradient(to top, #93C6E7, #B9F3FC);
-    padding: 0 5%;
+    margin: 0 5%;
 }
 .prezentare div{
     margin: 1%;
@@ -22,7 +22,6 @@ body{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin: 2% 0 2% 0;
 }
 .div1{
     background-image: url("./img/front1.avif");
