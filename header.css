@@ -1,6 +1,6 @@
 .nav1{
     background-color: #b6fffd25;
-    margin-top: 2em;
+    margin-top: 2%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -23,11 +23,13 @@
 }
 .nav1 img{
     width: 30%;
-    position: relative;
-    left: 15%;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 h2{
-    font-size: 100%;
     color: black;
 }
 ul,li{
@@ -35,10 +37,7 @@ ul,li{
     padding: 0%;
     list-style-type: none;
 }
-ul:hover{
-    background-color: #b6fffd;
-}
-li:hover{
+ul:hover,li:hover{
     background-color: #b6fffd;
 }
 ul a{

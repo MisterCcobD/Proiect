@@ -1,6 +1,4 @@
-html{
-    scroll-behavior: smooth;
-}
+
 body{
     background: linear-gradient(to top, #93C6E7, #B9F3FC);
     margin: 0%;
@@ -36,7 +34,7 @@ body{
     height: 480px;
 }
 .bloc div img{
-    width: 10%;
+    width: 32px;
 }
 .bloc div h3{
     color: black;
@@ -63,7 +61,6 @@ table,caption,tr{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-collapse: collapse;
     border: 1px red solid;
-    /* border: 1px solid blue; */
     background-color: rgba(255, 255, 255, 0.282);
     margin: auto;
     color: black;
