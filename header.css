@@ -1,65 +1,66 @@
-.nav1{
-    background-color: #b6fffd25;
-    margin-top: 2%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-basis: 20%;
-}
-.nav1 img:hover{
-    animation-name: shake;
-    animation-duration: 0.2s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-.nav1 a{
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-}
-.nav1 a:hover{
-    text-shadow: 1px 0px 2px blue;
-}
-.nav1 img{
-    width: 30%;
-}
-.logo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-h2{
-    color: black;
-}
-ul,li{
-    margin: 0%;
-    padding: 0%;
-    list-style-type: none;
-}
-ul:hover,li:hover{
-    background-color: #b6fffd;
-}
-ul a{
-    font-size: 1.5em;
-}
-.drop:hover .obt{
+#showHeader:checked ~ header{
     display: block;
-    position: fixed;
 }
-.obt{
-    background-color: rgba(255, 255, 255, 0.346) !important;
-    display: none;
-}
-.obt li:hover{
-    background-color: rgba(255, 255, 255, 0.496);
-}
-@keyframes shake {
-    from{
-        transform: rotate(-5deg);
+@media screen and (min-width: 751px){
+    #showHeader{
+        display: none;
     }
-    to{
-        transform: rotate(5deg);
+    .nav1{
+        background-color: #b6fffd25;
+        margin-top: 2%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-basis: 20%;
+        font-size: 1.5em;
+        font-weight: 500;
     }
-    
+    .nav1 img:hover{
+        animation-name: shake;
+        animation-duration: 0.2s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+    .nav1 a{
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+    }
+    .nav1 img{
+        width: 30%;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    ul,li{
+        margin: 0%;
+        padding: 0%;
+        list-style-type: none;
+    }
+    ul:hover,li:hover{
+        background-color: #90fffb;
+    }
+    .drop:hover .obt{
+        display: block;
+        position: fixed;
+    }
+    .obt{
+        background-color: rgba(255, 255, 255, 0.346) !important;
+        display: none;
+    }
+    .obt li:hover{
+        background-color: rgba(255, 255, 255, 0.496);
+    }
+    @keyframes shake {
+        from{
+            transform: rotate(-5deg);
+        }
+        to{
+            transform: rotate(5deg);
+        }
+        
+    }   
 }

@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="header.css" />
     <link rel="stylesheet" href="main.css" />
-    <link rel="stylesheet" href="footer.css" />
+    <!-- <link rel="stylesheet" href="footer.css" /> -->
     <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
     <title>Clinica Julia</title>
   </head>
   <body>
+    <input type="checkbox" id="showHeader"> 
     <header>
       <nav class="nav1">
-        <ul class="drop"><h2>SERVICII</h2>
+        <ul class="drop">SERVICII
           <ul class="obt">
             <li><a href="podologie.html">Evaluare Podologica</a></li>
             <li><a href="picior.html">Ingrijire Piciorului</a></li>
@@ -26,7 +27,7 @@
           </ul>
         </ul>
         <li>
-          <a href="echipamente.html" title="ECHIPAMENTE"><h2>ECHIPAMENTE</h2></a>
+          <a href="echipamente.html" title="ECHIPAMENTE">ECHIPAMENTE</a>
         </li>
         <a href="main.html" title="ACASA"><img src="logo.png" alt="logo.png" class="logo"></a>
         <li><a href="despre.html" title="DESPRE NOI">DESPRE NOI</a>
@@ -34,6 +35,7 @@
         <li><a href="T&C.html" title="TERMENI SI CONDITII">T&C</a>
         </li>
         </nav>
+      </header>
     <section class="bloc">
       <div class="bloc div1">
         <h3>Cluj</h3>
@@ -96,10 +98,7 @@
         </table>
       </div>
     </section>
-    <footer>
-      <div class="dev">
-        <p>UGABUGA - bhvjghsdvbkbv</p>
-      </div>
+    <section>
       <form action="">
         <h2>Cere o Programare</h2>
         <input type="text" name="name" id="name" placeholder="Numele complet" required /><br />
@@ -129,12 +128,12 @@
           <input type="checkbox" name="sub" id="sub" />
           <label for="sub">Doresc sa fiu insiinta despre urmatoarele oferte sau campanii</label><br />
           <input type="checkbox" name="TsC" id="TsC" required />
-          <label for="TsC"><a href="T%C.html" target="_blank" title="Termeni si conditii">Am citit si sunt de acord cu termenii si conditiile</a></label>
+          <label for="TsC"><a href="T%C.html" target="_blank" title="Termeni si conditii" id="TnC">Am citit si sunt de acord cu termenii si conditiile</a></label>
         </div>
       </form>
-      <div class="company">
-        <p>&copy;Clinica Julia2017-PREZENT</p>
-      </div>
+    </section>
+    <footer>
+
     </footer>
   </body>
 </html>
