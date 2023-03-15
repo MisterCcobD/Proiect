@@ -6,47 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="header.css" />
     <link rel="stylesheet" href="main.css" />
-    <!-- <link rel="stylesheet" href="footer.css" /> -->
+    <link rel="stylesheet" href="footer.css" />
     <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
     <title>Clinica Julia</title>
   </head>
   <body>
     <input type="checkbox" id="showHeader"> 
     <header>
-      <nav class="nav1">
-        <ul class="drop">SERVICII
-          <ul class="obt">
-            <li><a href="podologie.html">Evaluare Podologica</a></li>
-            <li><a href="picior.html">Ingrijire Piciorului</a></li>
-            <li><a href="chirurgie.html">Chirurgie</a></li>
-            <li><a href="ortopedie.html">Ortopedie</a></li>
-            <li><a href="fizioterapie.html">Fizioterapie</a></li>
-            <li><a href="kinetoterapie.html">Kinetoterapie</a></li>
-            <li><a href="sport.html">Recuperare Sportiva</a></li>
-            <li><a href="cryo.html">Criosauna</a></li>
-          </ul>
-        </ul>
-        <li>
-          <a href="echipamente.html" title="ECHIPAMENTE">ECHIPAMENTE</a>
-        </li>
+      <nav id="nav1">
+        <ul class="drop"><p>SERVICII</p>
+          <li><a href="podologie.html">Evaluare Podologica</a></li>
+          <li><a href="picior.html">Ingrijire Piciorului</a></li>
+          <li><a href="chirurgie.html">Chirurgie</a></li>
+          <li><a href="ortopedie.html">Ortopedie</a></li>
+          <li><a href="fizioterapie.html">Fizioterapie</a></li>
+          <li><a href="kinetoterapie.html">Kinetoterapie</a></li>
+          <li><a href="sport.html">Recuperare Sportiva</a></li>
+          <li><a href="cryo.html">Criosauna</a></li>
+        </ul>  
+        <a href="echipamente.html" title="ECHIPAMENTE">ECHIPAMENTE</a>
         <a href="main.html" title="ACASA"><img src="logo.png" alt="logo.png" class="logo"></a>
-        <li><a href="despre.html" title="DESPRE NOI">DESPRE NOI</a>
-        </li>
-        <li><a href="T&C.html" title="TERMENI SI CONDITII">T&C</a>
-        </li>
+        <a href="despre.html" title="DESPRE NOI">DESPRE NOI</a>
+        <a href="T&C.html" title="TERMENI SI CONDITII">T&C</a>
         </nav>
       </header>
       <section class="prezentare">
-        <div>
+        <div class="img">
           <img src="./img/sis.png" alt="sis">
+        </div>
+        <div class="img">
           <img src="./img/optica.png" alt="">
         </div>
-        <div>
+        <div class="text">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam eum consequatur molestiae soluta ducimus commodi quod voluptates repellendus? Dicta iure nulla eius eos unde quidem a hic facilis veritatis. Non.</p>
+        </div>
+        <div class="img">
           <img src="./img/shock.png" alt="">
+        </div>
+        <div class="text">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam facere ullam alias nam! Officia natus pariatur omnis similique. Voluptatum nisi saepe beatae! Sint nam atque culpa dolorum, aliquam enim veniam!</p>
         </div>
-        <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis sequi velit, laudantium ex vero placeat omnis, aut eligendi officia necessitatibus ea hic nihil tenetur commodi laboriosam amet earum consectetur labore!</p></div>
+        <div class="text"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis sequi velit, laudantium ex vero placeat omnis, aut eligendi officia necessitatibus ea hic nihil tenetur commodi laboriosam amet earum consectetur labore!</p></div>
       </section>
     <section class="locatie">
       <div class="locatie div1">
@@ -145,7 +145,9 @@
       </form>
     </section>
     <footer>
-
+      <a href="#nav1">
+        <button class="button">TOP</button></a>
+      &copy;CLINICA JULIA 2017-PREZENT
     </footer>
   </body>
 </html>
