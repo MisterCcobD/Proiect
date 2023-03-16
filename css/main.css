@@ -20,6 +20,7 @@ body{
     width: 100%;
 }
 .locatie{
+    margin-top: 2%;
     box-sizing: border-box;
     display: flex;
     justify-content: space-evenly;

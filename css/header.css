@@ -31,7 +31,7 @@
     a:hover{
         text-shadow: 1px 1px 1px blue;
     }
-    ul p:hover{
+    #nav1 p:hover{
         text-shadow: 1px 1px 1px blue;
     }
     #nav1 img{
