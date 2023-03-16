@@ -26,15 +26,15 @@ body{
     flex-wrap: wrap;
 }
 .div1{
-    background-image: url("./img/front1.avif");
+    background-image: url("/img/front1.avif");
     background-size: cover;
 }
 .div2{
-    background-image: url("./img/front2.avif");
+    background-image: url("/img/front2.avif");
     background-size: cover;
 }
 .div3{
-    background-image: url("./img/front3.jpeg");
+    background-image: url("/img/front3.jpeg");
     background-size: cover;
 }
 .locatie div{
