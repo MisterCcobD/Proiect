@@ -5,51 +5,56 @@
     #showHeader{
         display: none;
     }
-    #nav1{
+    .nav1{
+        background-color: #b6fffd25;
         margin-top: 2%;
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
-        font-size: 3ch;
+        font-size: 1.5em;
         font-weight: 500;
     }
-    #nav1 img:hover{
+    .nav1 img:hover{
         animation-name: shake;
         animation-duration: 0.2s;
         animation-timing-function: ease-in-out;
         animation-iteration-count: infinite;
         animation-direction: alternate;
     }
-    a{
+    .nav1 a{
         display: flex;
         justify-content: center;
         align-items: center;
         color: rgb(0, 0, 0);
         text-decoration: none;
     }
-    a:hover{
-        text-shadow: 1px 1px 1px blue;
-    }
-    #nav1 p:hover{
-        text-shadow: 1px 1px 1px blue;
-    }
-    #nav1 img{
+    .nav1 img{
         width: 30%;
     }
-    ul,li,a{
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    ul,li{
         margin: 0%;
         padding: 0%;
         list-style-type: none;
     }
-    .drop:hover li{
-        display: contents;
-        position: absolute;
+    ul:hover,li:hover{
+        background-color: rgba(255, 255, 255, 0.5);
     }
-    li{
-        background-color: rgba(151, 151, 151, 0.3) ;
-        display: none;
+    .drop:hover .obt{
+        display: block;
         position: fixed;
+    }
+    .obt{
+        background-color: rgba(255, 255, 255, 0.3) !important;
+        display: none;
+    }
+    .obt li:hover{
+        background-color: rgba(255, 255, 255, 0.4);
     }
     @keyframes shake {
         from{
