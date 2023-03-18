@@ -22,7 +22,7 @@
     text-align: center;
     font-size: 1em;
     font-weight: 500;}
-@media screen and (min-width: 751px){
+@media screen and (min-width: 1024px){
     #showHeader{
         display: none;
     }
@@ -43,7 +43,7 @@
         animation-iteration-count: infinite;
         animation-direction: alternate;
     }
-    #nav1 a{
+    #nav1 li{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -52,11 +52,6 @@
     }
     #nav1 img{
         width: 30%;
-    }
-    .logo{
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
     #nav1 ul:hover,li:hover{
         cursor: pointer;
