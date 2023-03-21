@@ -1,0 +1,144 @@
+
+body{
+    background: white;
+    margin: 0 10%;
+}
+a{color: black;
+text-decoration: none;
+}
+a:hover{
+    text-shadow: 0 0 2px blue;
+}
+/* big screen */
+@media screen and (min-width: 751px){
+}
+.prezentare {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: justify;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3ch;
+}
+.prezentare :nth-child(1){
+    width: 50%;
+}
+.prezentare :nth-child(2){
+    width: 50%;
+}
+.prezentare :nth-child(4){
+    width: 100%;
+}
+.locatie{
+    margin-top: 2%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card1{
+    background-image: url("/img/front1.avif");
+    background-size: cover;
+}
+.card2{
+    background-image: url("/img/front2.avif");
+    background-size: cover;
+}
+.card3{
+    background-image: url("/img/front3.jpeg");
+    background-size: cover;
+}
+.locatie div{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    text-align: center;
+    border-radius: 20px;
+    width: 300px;
+    height: 480px;
+}
+.locatie img{
+    width: 32px;
+}
+.locatie h3{
+    color: black;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: rgb(92, 208, 92) 1px 2px 2px;
+}
+.locatie p{
+    margin: auto;
+    color: rgb(0, 0, 0);
+}
+.locatie a{
+    font-weight: bold;
+    font-style: oblique;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.locatie a:hover{
+    text-shadow: 0 0 5px blue;
+    color: white;
+    text-decoration: none;
+}
+table,caption,tr{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-collapse: collapse;
+    border: 1px red solid;
+    background-color: rgba(255, 255, 255, 0.282);
+    margin: auto;
+    color: black;
+}
+form{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+input{
+    text-align: center;
+    opacity: 0.8;
+    margin: 0.5em;
+    font-size: 2ch;
+}
+textarea{
+    opacity: 0.8;
+    text-align: center;
+    font-size: 2ch;
+}
+input:hover{
+    opacity: 1;
+    transform: scale(1.1);
+    transition: 0.1s;
+}
+select{
+    opacity: 0.8;
+    font-size: 2ch;
+}
+select:hover{
+    opacity: 1;
+    transform: scale(1.1);
+    transition: 0.1s;
+}
+textarea:hover{
+    opacity: 1;
+    transform: scale(1.1);
+    transition: 0.1s;
+}
+input:focus{
+    opacity: 1;
+    transform: scale(1.1);
+    transition: 0.1s;
+}
+textarea:focus{
+    opacity: 1;
+    transform: scale(1.1);
+    transition: 0.1s;
+}
+#TnC{
+    text-decoration: none;
+    color: red;
+}

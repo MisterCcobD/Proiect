@@ -67,4 +67,21 @@ FA DRAGUT
 schimba header, nu H2 si nu in div
 pune poza la carduri
 si rezolva header-ul
+<<<<<<< HEAD
 cauta ceva dragut
+
+URMATORUL PAS - FA FOOTER-UL DRAGUT!
+IDEE PENTRU FOOTER:
+BUTTON - CEVA JS, GET ELEMENT BY ID/CLASS, DISPLAY FORMULARUL DE PROGRAMARE
+LA MIJLOC POATE CEVA DATE DESPRE FIRMA SI &COPY SI PLM
+INCA ODATA PENTRU UN PUTON DE VERIFICARE A REZULTATELOR
+
+
+
+
+header fara h2, mareste scrisul
+in footer mai nimic
+formularul in section
+=======
+cauta ceva dragut
+>>>>>>> main

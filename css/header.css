@@ -1,0 +1,80 @@
+#showHeader{
+    width: 30px;
+    height: 30px;
+    background-image: url(/img/menu.png);
+}
+#showHeader:checked ~ header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#nav1 ul,li{
+    margin: 0%;
+    padding: 0%;
+    list-style-type: none;
+}
+#nav1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1%;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 500;}
+@media screen and (min-width: 1024px){
+    #showHeader{
+        display: none;
+    }
+    #nav1{
+        background-color: #b6fffd25;
+        margin-top: 2%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1.5em;
+        font-weight: 500;
+    }
+    #nav1 img:hover{
+        animation-name: shake;
+        animation-duration: 0.2s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+    #nav1 li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+    }
+    #nav1 img{
+        width: 30%;
+    }
+    #nav1 ul:hover,li:hover{
+        cursor: pointer;
+        background-color: rgba(139, 183, 207, 0.5);
+    }
+    .drop:hover .obt{
+        display: block;
+        position: fixed;
+    }
+    .obt{
+        background-color: rgba(255, 255, 255, 0.5) !important;
+        display: none;
+    }
+    .obt li:hover{
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+    @keyframes shake {
+        from{
+            transform: rotate(-5deg);
+        }
+        to{
+            transform: rotate(5deg);
+        }
+        
+    }   
+}
