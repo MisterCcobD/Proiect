@@ -41,9 +41,10 @@ text-decoration: none;
         align-items: center;
         font-size: 150%;
     }
-    /* #nav1 :nth-child(1,2,3,4,5){
+    /* #nav1 img,ul,a{
         width: 20%;
         flex-basis: 20%;
+        flex-grow: 1;
     } */
     #nav1 img{
         width: 30%;
