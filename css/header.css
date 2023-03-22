@@ -41,6 +41,7 @@ text-decoration: none;
         align-items: center;
         font-size: 150%;
     }
+    /* DIN MOTICE NECUNOSCUTE #nav1 ul,img,a{flex-basis: 20%; STRICA TOT IN PAGINA */
     #nav1 a{
         flex-basis: 20%;
     }
