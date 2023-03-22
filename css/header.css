@@ -41,9 +41,10 @@ text-decoration: none;
         align-items: center;
         font-size: 150%;
     }
-    #nav1 img,ul,a{
+    /* #nav1 :nth-child(1,2,3,4,5){
+        width: 20%;
         flex-basis: 20%;
-    }
+    } */
     #nav1 img{
         width: 30%;
     }
@@ -63,14 +64,14 @@ text-decoration: none;
     }
     #nav1 ul:hover,li:hover{
         cursor: pointer;
-        background-color: rgba(139, 183, 207, 0.5);
+        background-color: rgba(139, 183, 207, 0.8);
     }
     .drop:hover .obt{
         display: block;
         position: fixed;
     }
     .obt{
-        background-color: rgba(255, 255, 255, 0.5) !important;
+        background-color: rgba(255, 255, 255, 0.7) !important;
         display: none;
     }
     .obt li:hover{
