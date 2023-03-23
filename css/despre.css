@@ -1,0 +1,19 @@
+body{
+    margin: 0 10%;
+}
+.prezentare{
+    background-image: url(/img/2023-03-01-15-00-59-333.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    height: 70vh;
+}
+.poveste{
+    margin: auto;
+    width: 75%;
+    text-align: justify;
+}
+iframe{
+    width: 100%;
+    height: 500px;
+}

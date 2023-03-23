@@ -41,7 +41,7 @@ text-decoration: none;
         align-items: center;
         font-size: 150%;
     }
-    /* DIN MOTICE NECUNOSCUTE #nav1 ul,img,a{flex-basis: 20%; STRICA TOT IN PAGINA */
+    /* DIN MOTIVE NECUNOSCUTE #nav1 ul,img,a{flex-basis: 20%; STRICA TOT IN PAGINA */
     #nav1 a{
         flex-basis: 20%;
     }
@@ -61,6 +61,7 @@ text-decoration: none;
     }
     #nav1 li{
         display: flex;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
         color: rgb(0, 0, 0);
@@ -72,7 +73,7 @@ text-decoration: none;
     }
     .drop:hover .obt{
         display: block;
-        position: fixed;
+        position: absolute;
     }
     .obt{
         background-color: rgba(255, 255, 255, 0.7) !important;
