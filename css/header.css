@@ -60,8 +60,6 @@ text-decoration: none;
         animation-direction: alternate;
     }
     #nav1 li{
-        display: flex;
-        flex-direction: row;
         justify-content: center;
         align-items: center;
         color: rgb(0, 0, 0);
@@ -76,7 +74,8 @@ text-decoration: none;
         position: absolute;
     }
     .obt{
-        background-color: rgba(255, 255, 255, 0.7) !important;
+        /* width: 20%; */
+        background-color: rgba(255, 255, 255, 1) !important;
         display: none;
     }
     .obt li:hover{

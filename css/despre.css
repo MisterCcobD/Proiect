@@ -12,7 +12,9 @@ section h3, p{
     font-size: 2ch;
     text-align: justify;
 }
-section li{
+section li, section li:hover{
+    cursor: auto;
+    background-color: white;
     list-style: circle;
 }
 #prezentare{
