@@ -87,3 +87,6 @@ DESPRE.HTML
 in sectciunea.blog sa fie mult blog si fiecare poveste sa aiba un div.prezentare deasupra cu backgroundimg width 100% height 500px
 <!-- in sectiunea.echipa flex-row-center -->
     si imaginile editate text nume si functia
+
+AM RAMAS LA RAND CU PAGINA KINETOTERAPHY.HTML
+    REARANJEAZA CODUL HTML CA MA FUUTE FOOTER-UL
