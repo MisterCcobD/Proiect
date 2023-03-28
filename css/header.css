@@ -1,12 +1,28 @@
+
+
 #showHeader{
-    width: 30px;
-    height: 30px;
-    background-image: url(/img/menu.png);
+    cursor: pointer;
+    position: fixed;
+    top: 2%;
+    left: 5%;
+    width: 36px;
+    height: 36px;
 }
-#showHeader:checked ~ header{
+#nav1,#nav2{
+    text-transform: uppercase;
+    display: none;
+}
+#showHeader:checked ~ #nav2{
+    height: 80%;
+    font-weight: bold;
+    padding: 5% 5% 0 0;
+    background-color: white;
+    position: fixed;
+    top: 2%;
+    float: right;
     display: flex;
+    gap: 5%;
     flex-direction: column;
-    align-items: center;
     
 }
 #nav1 ul,li{
@@ -20,14 +36,6 @@ text-decoration: none;
 #nav1 a:hover{
     text-shadow: 0 0 2px blue;
 }
-#nav1{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 1%;
-    text-align: center;
-    font-size: 100%;
-}
 @media screen and (min-width: 1024px){
     #showHeader{
         display: none;
@@ -35,6 +43,7 @@ text-decoration: none;
     #nav1{
         background-color: #b6fffd25;
         margin-top: 2%;
+        text-align: center;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
