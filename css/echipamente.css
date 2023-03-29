@@ -1,0 +1,62 @@
+body{
+    background: white;
+    margin: 0 10%;
+}
+#echipamente div{
+    text-align: center;
+    margin: 5% 0;
+}
+#echipamente h1,p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    text-shadow: wheat 1px 0 5px;
+    font-weight: 600;
+}
+.eq1{
+    background-image: url("/img/laser-mic.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.eq2{
+    background-image: url("/img/sis.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.eq3{
+    background-image: url("/img/limfactic.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.eq4{
+    background-image: url("/img/shock.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.eq5{
+    background-image: url("/img/crio.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.eq6{
+    background-image: url("/img/fan.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.eq7{
+    background-image: url("/img/pasiv.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.eq8{
+    background-image: url("/img/optica.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}

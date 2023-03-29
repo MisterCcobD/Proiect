@@ -67,7 +67,6 @@ FA DRAGUT
 schimba header, nu H2 si nu in div
 pune poza la carduri
 si rezolva header-ul
-<<<<<<< HEAD
 cauta ceva dragut
 
 URMATORUL PAS - FA FOOTER-UL DRAGUT!
@@ -82,6 +81,12 @@ INCA ODATA PENTRU UN PUTON DE VERIFICARE A REZULTATELOR
 header fara h2, mareste scrisul
 in footer mai nimic
 formularul in section
-=======
-cauta ceva dragut
->>>>>>> main
+
+
+DESPRE.HTML
+in sectciunea.blog sa fie mult blog si fiecare poveste sa aiba un div.prezentare deasupra cu backgroundimg width 100% height 500px
+<!-- in sectiunea.echipa flex-row-center -->
+    si imaginile editate text nume si functia
+
+AM RAMAS LA RAND CU PAGINA KINETOTERAPHY.HTML
+    REARANJEAZA CODUL HTML CA MA FUUTE FOOTER-UL

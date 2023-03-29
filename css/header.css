@@ -1,12 +1,28 @@
+
+
 #showHeader{
-    width: 30px;
-    height: 30px;
-    background-image: url(/img/menu.png);
+    cursor: pointer;
+    position: fixed;
+    top: 2%;
+    left: 5%;
+    width: 36px;
+    height: 36px;
 }
-#showHeader:checked ~ header{
+#nav1,#nav2{
+    text-transform: uppercase;
+    display: none;
+}
+#showHeader:checked ~ #nav2{
+    height: 80%;
+    font-weight: bold;
+    padding: 5% 5% 0 0;
+    background-color: white;
+    position: fixed;
+    top: 2%;
+    float: right;
     display: flex;
+    gap: 5%;
     flex-direction: column;
-    align-items: center;
     
 }
 #nav1 ul,li{
@@ -20,14 +36,6 @@ text-decoration: none;
 #nav1 a:hover{
     text-shadow: 0 0 2px blue;
 }
-#nav1{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 1%;
-    text-align: center;
-    font-size: 1em;
-    font-weight: 500;}
 @media screen and (min-width: 1024px){
     #showHeader{
         display: none;
@@ -35,12 +43,23 @@ text-decoration: none;
     #nav1{
         background-color: #b6fffd25;
         margin-top: 2%;
+        text-align: center;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        font-size: 1.5em;
-        font-weight: 500;
+        font-size: 150%;
+    }
+    /* DIN MOTIVE NECUNOSCUTE #nav1 ul,img,a{flex-basis: 20%; STRICA TOT IN PAGINA */
+    #nav1 a{
+        flex-basis: 20%;
+    }
+    #nav1 ul{
+        flex-basis: 20%;
+    }
+    #nav1 img{
+        flex-basis: 20%;
+        width: 30%;
     }
     #nav1 img:hover{
         animation-name: shake;
@@ -50,25 +69,22 @@ text-decoration: none;
         animation-direction: alternate;
     }
     #nav1 li{
-        display: flex;
         justify-content: center;
         align-items: center;
         color: rgb(0, 0, 0);
         text-decoration: none;
     }
-    #nav1 img{
-        width: 30%;
-    }
     #nav1 ul:hover,li:hover{
         cursor: pointer;
-        background-color: rgba(139, 183, 207, 0.5);
+        background-color: rgba(139, 183, 207, 0.8);
     }
     .drop:hover .obt{
         display: block;
-        position: fixed;
+        position: absolute;
     }
     .obt{
-        background-color: rgba(255, 255, 255, 0.5) !important;
+        /* width: 20%; */
+        background-color: rgba(255, 255, 255, 1) !important;
         display: none;
     }
     .obt li:hover{
