@@ -12,6 +12,9 @@
     text-transform: uppercase;
     display: none;
 }
+label{
+    
+}
 #showHeader:checked ~ #nav2{
     color: black;
     height: 80%;
