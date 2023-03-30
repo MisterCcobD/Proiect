@@ -88,10 +88,10 @@ in sectciunea.blog sa fie mult blog si fiecare poveste sa aiba un div.prezentare
 <!-- in sectiunea.echipa flex-row-center -->
     si imaginile editate text nume si functia
 
+
+
 AM RAMAS LA RAND CU PAGINA KINETOTERAPHY.HTML
     REARANJEAZA CODUL HTML CA MA FUUTE FOOTER-UL
-
-
 MAI MULT SPATIU DUPA HEADER
 SPATIU MAI MARE INTRE IMG SI TXT
 LA FORM
