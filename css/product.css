@@ -8,13 +8,16 @@ a{
 a:hover{
     text-shadow: 0 0 2px blue;
 }
+h1{
+    align-self: flex-start;
+}
 h2{
     text-align: center;
 }
 section{
     margin-top: 10%;
 }
-section li, section li:hover {
+div li, div li:hover {
     cursor: auto;
     background-color: white;
     list-style: circle;
