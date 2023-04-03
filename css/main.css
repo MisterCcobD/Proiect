@@ -139,8 +139,9 @@ th {
     width: 100%;
 }
 form {
-    background-color: #C9EEFF;
+  background-color: #C9EEFF;
   display: flex;
+  gap: 5px;
   flex-direction: column;
   align-items: center;
   text-align: center;
@@ -155,6 +156,7 @@ input {
   font-size: 2ch;
 }
 textarea {
+  resize: none;
   opacity: 0.8;
   text-align: center;
   font-size: 2ch;
