@@ -1,19 +1,24 @@
 
 
 #showHeader{
+    /* display: none; */
     cursor: pointer;
     position: fixed;
     top: 2%;
-    left: 5%;
+    right: 4%;
     width: 36px;
     height: 36px;
 }
+/* #showHeader::before{
+    content: 'X';
+    width: 10px;
+    height: 10px;
+    color: black;
+    background-color: black;
+} */
 #nav1,#nav2{
     text-transform: uppercase;
     display: none;
-}
-label{
-    
 }
 #showHeader:checked ~ #nav2{
     color: black;
