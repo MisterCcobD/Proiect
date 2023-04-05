@@ -38,6 +38,7 @@ a:hover {
   margin-top: 2%;
   box-sizing: border-box;
   display: flex;
+  gap: 30px;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
@@ -92,6 +93,7 @@ a:hover {
   text-shadow: 0 0 5px blue;
   color: white;
   text-decoration: none;
+  transform: scale(1.2);
 }
 table {
   border-radius: 10px;
@@ -194,3 +196,4 @@ textarea:focus {
   text-decoration: none;
   color: red;
 }
+
