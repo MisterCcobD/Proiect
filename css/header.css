@@ -17,6 +17,7 @@ nav img {
 }
 #nav1,
 #nav2 {
+  z-index: 999;
   text-transform: uppercase;
   display: none;
 }
