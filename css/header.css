@@ -38,11 +38,11 @@ nav img {
   position: absolute;
   left: -100%;
   display: flex;
-  gap: 5%;
+  gap: 2em;
   flex-direction: column;
 }
 #showHeader:checked ~ #nav2 {
-  transition: 500ms;
+  transition: 300ms;
   position: fixed;
   left: 10%;
 }
