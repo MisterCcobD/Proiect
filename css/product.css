@@ -29,8 +29,7 @@ section img{
 .paragraf1 {
     display: flex;
     flex-direction: row;
-    gap: 10%;
-    font-size: 3ch;
+    gap: 5%;
     justify-content: center;
     align-items: center;
 }
@@ -38,7 +37,6 @@ section img{
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 3ch;
 }
 #preturi{
     display: flex;
@@ -57,4 +55,13 @@ table,tr,td{
     font-size: 2ch;
     border-collapse: collapse;
     border: 5px double pink;
+}
+@media screen and (min-width: 1024px) {
+    .paragraf1 {
+        font-size: xx-large;
+    }
+    .paragraf2{
+        font-size: xx-large;
+    }
+
 }

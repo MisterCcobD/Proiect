@@ -4,18 +4,21 @@ body{
 section{
     margin: 5% 0;
 }
-section h1{
-    font-size: 2ch;
-    text-align: center;
-}
-section h3, p{
-    font-size: 2ch;
-    text-align: justify;
-}
 section li, section li:hover{
     cursor: auto;
     background-color: white;
     list-style: circle;
+}
+section h1{
+    font-size: 32px;
+    text-align: center;
+}
+section h3{
+    font-size: 24px;
+}
+section p, li{
+    font-size: 20px;
+    text-align: justify;
 }
 #prezentare{
     background-image: url(/img/2023-03-01-15-00-59-333.jpg);
@@ -64,4 +67,18 @@ iframe{
     background-position: center;
     height: 100%;
     height: 70vh;
+}
+@media screen and (min-width:1024px) {
+    section h1{
+        font-size: 42px;
+        text-align: center;
+    }
+    section h3{
+        font-size: 28px;
+    }
+    section p, li{
+        font-size: 24px;
+        text-align: justify;
+    }
+    
 }
