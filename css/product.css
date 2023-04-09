@@ -39,14 +39,12 @@ section img{
     align-items: center;
 }
 #preturi{
+    overflow-x: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
     gap: 10%;
-}
-table caption{
-    font-size: 3ch;
 }
 table,tr,td{
     word-wrap: break-word;
@@ -62,6 +60,16 @@ table,tr,td{
     }
     .paragraf2{
         font-size: xx-large;
+    }
+    #preturi{
+        height: 70vh;
+    }
+    #preturi img{
+        margin-top: 5%;
+        height: 50vh;
+    }
+    table caption{
+        font-size: 3ch;
     }
 
 }
