@@ -15,7 +15,7 @@ function scrollToForm() {
     });
   }
 }
-function showSpan() {
+function showTNS() {
   window.open("T&C.html", "newWindow", "width=400,height=400");
 }
 
