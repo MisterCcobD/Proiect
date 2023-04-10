@@ -15,3 +15,7 @@ function scrollToForm() {
     });
   }
 }
+function showSpan() {
+  window.open("T&C.html", "newWindow", "width=400,height=400");
+}
+
