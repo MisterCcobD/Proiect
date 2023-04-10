@@ -1,6 +1,14 @@
 body{
     margin:0 10%;
 }
+::-webkit-scrollbar{
+    width: 0.3em;
+}
+::-webkit-scrollbar-thumb{
+    width: 1%;
+    background:linear-gradient(to bottom, blue, green);
+    border-radius: 500px;
+}
 a{
     color: black;
     text-decoration: none;
@@ -20,8 +28,12 @@ section{
 div li, div li:hover {
     cursor: auto;
     background-color: white;
-    list-style: circle;
+    list-style-image: url(/img/arrow.png);
 }
+
+/* div li::marker{
+    content: '=) ';
+} */
 section img{
     width: 30%;
     height: 30%;

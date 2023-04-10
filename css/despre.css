@@ -1,6 +1,14 @@
 body{
     margin: 0 10%;
 }
+::-webkit-scrollbar{
+    width: 0.3em;
+}
+::-webkit-scrollbar-thumb{
+    width: 1%;
+    background:linear-gradient(to bottom, blue, green);
+    border-radius: 500px;
+}
 section{
     margin: 5% 0;
 }
