@@ -15,38 +15,40 @@
 
 <body>
   <header>
-    <input type="checkbox" id="showHeader" />
+    <input type="checkbox" id="showHeader">
+    <label for="showHeader"><img src="/img/menu.png" alt=""></label>
     <nav id="nav1">
       <ul class="drop">
         SERVICII
         <ul class="obt">
-          <li><a href="/html//p-podology-ro.html">Evaluare Podologica</a></li>
-          <li><a href="/html/p-footcare-ro.html">Ingrijire Piciorului</a></li>
-          <li><a href="/html/p-chirurgy-ro.html">Chirurgie</a></li>
-          <li><a href="/html/p-orthopedics-ro.html">Ortopedie</a></li>
-          <li><a href="/html/p-physiotherapy.html">Fizioterapie</a></li>
-          <li><a href="/html/p-kinetotherapy.html">Kinetoterapie</a></li>
-          <li><a href="/html/p-physiotherapy.html">Recuperare Sportiva</a></li>
-          <li><a href="/html/p-cryo-ro.html">Criosauna</a></li>
+          <li><a href="p-podology-ro.html">Evaluare Podologica</a></li>
+          <li><a href="p-footcare-ro.html">Ingrijire Piciorului</a></li>
+          <li><a href="p-chirurgy-ro.html">Chirurgie</a></li>
+          <li><a href="p-orthopedics-ro.html">Ortopedie</a></li>
+          <li><a href="p-physiotherapy.html">Fizioterapie</a></li>
+          <li><a href="p-kinetotherapy.html">Kinetoterapie</a></li>
+          <li><a href="p-sport-recovery.html">Recuperare Sportiva</a></li>
+          <li><a href="p-cryo-ro.html">Criosauna</a></li>
         </ul>
       </ul>
       <a href="echipamente.html" title="ECHIPAMENTE">ECHIPAMENTE</a>
       <a href="main.html" title="ACASA"><img src="logo.png" alt="logo.png" class="logo" /></a>
       <a href="despre.html" title="DESPRE NOI">DESPRE NOI</a>
-      <a href="T&C.html" title="TERMENI SI CONDITII">TERMENI&CONDITII</a>
+      <a href="T&C.html" title="TERMENI SI CONDITII">T & C</a>
     </nav>
     <nav id="nav2">
-      <li><a href="/html//p-podology-ro.html">Evaluare Podologica</a></li>
-      <li><a href="/html/p-footcare-ro.html">Ingrijire Piciorului</a></li>
-      <li><a href="/html/p-chirurgy-ro.html">Chirurgie</a></li>
-      <li><a href="/html/p-orthopedics-ro.html">Ortopedie</a></li>
-      <li><a href="/html/p-physiotherapy.html">Fizioterapie</a></li>
-      <li><a href="/html/p-kinetotherapy.html">Kinetoterapie</a></li>
-      <li><a href="/html/p-physiotherapy.html">Recuperare Sportiva</a></li>
-      <li><a href="/html/p-cryo-ro.html">Criosauna</a></li>
+      <li><a href="main.html"><img src="logo.png" alt=""></a></li>
+      <li><a href="p-podology-ro.html">Evaluare Podologica</a></li>
+      <li><a href="p-footcare-ro.html">Ingrijire Piciorului</a></li>
+      <li><a href="p-chirurgy-ro.html">Chirurgie</a></li>
+      <li><a href="p-orthopedics-ro.html">Ortopedie</a></li>
+      <li><a href="p-physiotherapy.html">Fizioterapie</a></li>
+      <li><a href="p-kinetotherapy.html">Kinetoterapie</a></li>
+      <li><a href="p-sport-recovery.html">Recuperare Sportiva</a></li>
+      <li><a href="p-cryo-ro.html">Criosauna</a></li>
       <a href="echipamente.html" title="ECHIPAMENTE">ECHIPAMENTE</a>
       <a href="despre.html" title="DESPRE NOI">DESPRE NOI</a>
-      <a href="T&C.html" title="TERMENI SI CONDITII">TERMENI&CONDITII</a>
+      <a href="T&C.html" title="TERMENI SI CONDITII">T & C</a>
     </nav>
   </header>
   <section class="prezentare">
@@ -67,6 +69,7 @@
       recuperare sportivă. Bucură-te de
       sănătatea ta în fiecare clipă!
     </p>
+    <!-- <a onclick="scrollToForm()"><h2>HAI LA CLINICA JULIA!</h2></a> -->
   </section>
   <section class="locatie">
     <div class="cardLocatie card1">
@@ -152,8 +155,8 @@
     </div>
   </section>
   <section class="formContainer">
-    <form>
-      <h2>PROGRAMARE</h2>
+    <form id="form">
+      <h1>PROGRAMARE</h1>
       <input type="text" name="name" id="name" placeholder="Numele complet" required /><br />
       <input type="email" name="email" id="email" placeholder="Email" required /><br />
       <input type="tel" name="tel" id="tel" pattern="[0-9]{10}" placeholder="Telefon" required />
@@ -181,14 +184,14 @@
         <input type="checkbox" name="sub" id="sub" />
         <label for="sub">Doresc sa fiu insiinta despre urmatoarele oferte sau campanii</label><br />
         <input type="checkbox" name="TsC" id="TsC" required />
-        <label for="TsC"><a href="T%C.html" target="_blank" title="Termeni si conditii" id="TnC">Am citit si sunt de
+        <label for="TsC"><a onclick="showTNS()" title="Termeni si conditii" id="TnC">Am citit si sunt de
             acord cu termenii si conditiile</a></label>
       </div>
     </form>
   </section>
   <footer>
     <div onclick="goToTop()">
-      <img src="/img/up-arrow.gif" alt="" />
+      <img src="/img/up-arrow.gif" alt="up-arrow.gif" />
     </div>
     &copy;CLINICA JULIA 2017-PREZENT
   </footer>
