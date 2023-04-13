@@ -16,6 +16,6 @@ function scrollToForm() {
   }
 }
 function showTNS() {
-  window.open("T&C.html", "newWindow", "width=400,height=400");
+  window.open("T&C.html", "newWindow", "width=800px,height=800px");
 }
 
