@@ -51,15 +51,15 @@ a:hover {
   flex-wrap: wrap;
 }
 .card1 {
-  background-image: url("/img/front1.avif");
+  background-image: url("/img/download");
   background-size: cover;
 }
 .card2 {
-  background-image: url("/img/front2.avif");
+  background-image: url("/img/download\ \(1\)");
   background-size: cover;
 }
 .card3 {
-  background-image: url("/img/front3.jpeg");
+  background-image: url("/img/download.jpeg");
   background-size: cover;
 }
 .cardLocatie {
