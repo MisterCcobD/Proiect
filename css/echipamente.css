@@ -26,13 +26,9 @@ body{
 }
 .pozeStanga img{
     width: 100%;
-    max-height: 250px;
-    float: left;
 }
 .pozeDreapta img{
     width: 100%;
-    max-height: 250px;
-    float: right;
 }
 @media screen and (min-width:1148px) {
     #echipamente h1{
@@ -49,12 +45,14 @@ body{
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     .pozeStanga img{
+        margin: 0 5% 0 0;
         width: 50%;
         max-height: 400px;
         float: left;
         border-radius: 0 70px 70px 0;
     }
     .pozeDreapta img{
+        margin: 0 0 0 5%;
         width: 50%;
         max-height: 400px;
         float: right;

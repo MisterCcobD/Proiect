@@ -29,7 +29,7 @@ section p, li{
     text-align: justify;
 }
 #prezentare{
-    background-image: url(/img/2023-03-01-15-00-59-333.jpg);
+    background-image: url(/img/Julia.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
@@ -46,6 +46,7 @@ iframe{
 }
 .echipa div{
     display: flex;
+    gap: 2%;
     flex-direction: row;
     justify-content: center;
 }
@@ -53,7 +54,7 @@ iframe{
     width: 20%;
 }
 #prezentare2{
-    background-image: url(/img/kids-running.jpg);
+    background-image: url(/img/2023-03-01-15-00-59-333.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
