@@ -37,12 +37,17 @@ section p, li{
 }
 .poveste{
     margin: auto;
-    width: 75%;
+    width: 100%;
     text-align: justify;
 }
 iframe{
     width: 100%;
     height: 500px;
+}
+.echipa{
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
 }
 .echipa div{
     display: flex;
