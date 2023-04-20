@@ -16,11 +16,4 @@ function scrollToForm() {
   }
 }
 
-// function showTNS() {
-//   window.open("T&C.html", "newWindow", "width=800px,height=800px");
-// }
-
-function showTNS(){
-  // ia exemplul mobile header facut la clasa
-}
 
