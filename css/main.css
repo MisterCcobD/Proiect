@@ -51,15 +51,15 @@ a:hover {
   flex-wrap: wrap;
 }
 .card1 {
-  background-image: url("/img/front1.avif");
+  background-image: url("/img/download");
   background-size: cover;
 }
 .card2 {
-  background-image: url("/img/front2.avif");
+  background-image: url("/img/download\ \(1\)");
   background-size: cover;
 }
 .card3 {
-  background-image: url("/img/front3.jpeg");
+  background-image: url("/img/download.jpeg");
   background-size: cover;
 }
 .cardLocatie {
@@ -163,13 +163,13 @@ input {
   text-align: center;
   opacity: 0.8;
   margin: 0.5em;
-  font-size: 2ch;
+  font-size: 1.2em;
 }
 textarea {
   resize: none;
   opacity: 0.8;
   text-align: center;
-  font-size: 2ch;
+  font-size: 1.2em;
 }
 input:hover {
   opacity: 1;
@@ -178,7 +178,7 @@ input:hover {
 }
 select {
   opacity: 0.8;
-  font-size: 2ch;
+  font-size: 1.5em;
 }
 select:hover {
   opacity: 1;
@@ -200,7 +200,32 @@ textarea:focus {
   transform: scale(1.1);
   transition: 0.1s;
 }
-#TnC {
+#TnS {
   text-decoration: none;
   color: red;
+}
+.popup{
+  width:80%;
+  height: 20vh;
+  overflow-x: scroll;
+  pointer-events: none;
+  opacity: 0;
+  position: fixed;
+  bottom: 0%;
+  z-index: 99;
+  background-color: white;
+  border: #aaa694 double 2px;
+  border-radius: 10px 10px 0 0;
+  font-size: 1.5em;
+  text-align: justify;
+}
+.popup:target{
+  pointer-events: all;
+  transition-duration: 0.5s;
+  opacity: 1;
+}
+#close{
+  padding: 10px;
+  color: white;
+  background: black;
 }

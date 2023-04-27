@@ -31,13 +31,18 @@ div li, div li:hover {
     list-style-image: url(/img/arrow.png);
 }
 
+<<<<<<< HEAD
+=======
 /* div li::marker{
     content: '=) ';
 } */
+>>>>>>> main
 section img{
     width: 30%;
     height: 30%;
 }
+<<<<<<< HEAD
+=======
 .paragraf1 {
     display: flex;
     flex-direction: row;
@@ -50,6 +55,7 @@ section img{
     flex-direction: column;
     align-items: center;
 }
+>>>>>>> main
 #preturi{
     overflow-x: auto;
     display: flex;
@@ -69,9 +75,23 @@ table,tr,td{
 @media screen and (min-width: 1024px) {
     .paragraf1 {
         font-size: xx-large;
+<<<<<<< HEAD
+        display: flex;
+        flex-direction: row;
+        gap: 5%;
+        justify-content: center;
+        align-items: center;
     }
     .paragraf2{
         font-size: xx-large;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+=======
+    }
+    .paragraf2{
+        font-size: xx-large;
+>>>>>>> main
     }
     #preturi{
         height: 70vh;
