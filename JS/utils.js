@@ -15,11 +15,4 @@ function scrollToForm() {
     });
   }
 }
-<<<<<<< HEAD
-
-=======
-function showTNS() {
-  window.open("T&C.html", "newWindow", "width=400,height=400");
-}
->>>>>>> main
 
