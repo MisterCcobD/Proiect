@@ -24,39 +24,39 @@ body{
     font-size: 1.3em;
     background: rgba(128, 128, 128, 0.114);  
 }
-.pozeStanga img{
-    width: 100%;
+.eq3{
+    background-image: url("/img/limfactic.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
 }
-.pozeDreapta img{
-    width: 100%;
+.eq4{
+    background-image: url("/img/shock.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
 }
-@media screen and (min-width:1148px) {
-    #echipamente h1{
-        font-size: 3em;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        color: black;
-        font-weight: 600;
-    }
-    #echipamente p{
-        font-size: 2em;
-        color: black;
-        background: rgba(128, 128, 128, 0.114);
-        text-align: justify;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    }
-    .pozeStanga img{
-        margin: 0 5% 0 0;
-        width: 50%;
-        max-height: 400px;
-        float: left;
-        border-radius: 0 70px 70px 0;
-    }
-    .pozeDreapta img{
-        margin: 0 0 0 5%;
-        width: 50%;
-        max-height: 400px;
-        float: right;
-        border-radius: 70px 0 0 70px;
-    }
-    
+.eq5{
+    background-image: url("/img/crio.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.eq6{
+    background-image: url("/img/fan.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.eq7{
+    background-image: url("/img/pasiv.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.eq8{
+    background-image: url("/img/optica.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
 }
