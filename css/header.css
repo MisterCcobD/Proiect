@@ -38,6 +38,7 @@ nav img {
   padding: 10% 10%;
   background-color: rgb(255, 255, 255);
   position: fixed;
+  top: 0%;
   left: -100%;
   display: flex;
   gap: 2%;
