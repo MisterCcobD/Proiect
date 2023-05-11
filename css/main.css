@@ -18,7 +18,7 @@ a:hover {
   text-shadow: 0 0 2px blue;
 }
 .prezentare {
-    margin-top: 5%;
+  margin-top: 5%;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -27,6 +27,9 @@ a:hover {
   color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.5em;
+}
+.prezentare img{
+  width: 100%;
 }
 .subtitlu{
     font-size: 1.1em;
@@ -155,7 +158,6 @@ form {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  width: 50%;
   border-radius: 30px;
   padding: 30px 20px;
 }

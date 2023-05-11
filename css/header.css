@@ -1,5 +1,4 @@
 #showHeader {
-  /* display: none; */
   cursor: pointer;
   position: fixed;
   top: 2%;
@@ -17,34 +16,38 @@ nav img {
 }
 #nav1,
 #nav2 {
-  z-index: 999;
+  z-index: 9;
   text-transform: uppercase;
   display: none;
 }
 #showHeader {
   display: none;
 }
-#showHeader ~ label{  position: fixed;
+#showHeader ~ label{ 
+    z-index: 10; 
+    position: fixed;
+    top: 5%;
     right: 5%;
     background: #ffc0cb69;
-    width: 10%;
+    width: 15%;
 }
 #showHeader ~ #nav2 {
   color: black;
-  height: 80%;
+  height: 100%;
   font-weight: bold;
-  padding: 5% 5% 0 0;
-  background-color: white;
-  position: absolute;
+  padding: 10% 10%;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
   left: -100%;
   display: flex;
-  gap: 2em;
+  gap: 2%;
   flex-direction: column;
+  text-align: center; 
 }
 #showHeader:checked ~ #nav2 {
   transition: 300ms;
   position: fixed;
-  left: 10%;
+  left: 0%;
 }
 #nav1 ul,
 li {
@@ -71,9 +74,8 @@ nav a:hover {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    font-size: 150%;
+    font-size: 2em;
   }
-  /* DIN MOTIVE NECUNOSCUTE #nav1 ul,img,a{flex-basis: 20%; STRICA TOT IN PAGINA */
   #nav1 a {
     flex-basis: 20%;
   }
