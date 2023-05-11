@@ -21,46 +21,46 @@
       <ul class="drop">
         SERVICII
         <ul class="obt">
-          <li><a href="p-podology-ro.html">Evaluare Podologica</a></li>
-          <li><a href="p-footcare-ro.html">Ingrijire Piciorului</a></li>
-          <li><a href="p-chirurgy-ro.html">Chirurgie</a></li>
-          <li><a href="p-orthopedics-ro.html">Ortopedie</a></li>
-          <li><a href="p-physiotherapy.html">Fizioterapie</a></li>
-          <li><a href="p-kinetotherapy.html">Kinetoterapie</a></li>
-          <li><a href="p-sport-recovery.html">Recuperare Sportiva</a></li>
-          <li><a href="p-cryo-ro.html">Criosauna</a></li>
+          <li><a href="/html/p-podology-ro.html">Evaluare Podologica</a></li>
+          <li><a href="/html/p-footcare-ro.html">Ingrijire Piciorului</a></li>
+          <li><a href="/html/p-chirurgy-ro.html">Chirurgie</a></li>
+          <li><a href="/html/p-orthopedics-ro.html">Ortopedie</a></li>
+          <li><a href="/html/p-physiotherapy.html">Fizioterapie</a></li>
+          <li><a href="/html/p-kinetotherapy.html">Kinetoterapie</a></li>
+          <li><a href="/html/p-sport-recovery.html">Recuperare Sportiva</a></li>
+          <li><a href="/html/p-cryo-ro.html">Criosauna</a></li>
         </ul>
       </ul>
-      <a href="echipamente.html" title="ECHIPAMENTE">ECHIPAMENTE</a>
-      <a href="main.html" title="ACASA"><img src="logo.png" alt="logo.png" class="logo" /></a>
-      <a href="despre.html" title="DESPRE NOI">DESPRE NOI</a>
-      <a href="blog.html" title="BLOG">BLOG</a>
+      <a href="/html/echipamente.html" title="ECHIPAMENTE">ECHIPAMENTE</a>
+      <a href="/index.html" title="ACASA"><img src="logo.png" alt="logo.png" class="logo" /></a>
+      <a href="/html/despre.html" title="DESPRE NOI">DESPRE NOI</a>
+      <a href="/html/blog.html" title="BLOG">BLOG</a>
     </nav>
     <nav id="nav2">
-      <li><a href="main.html"><img src="logo.png" alt=""></a></li>
-      <li><a href="p-podology-ro.html">Evaluare Podologica</a></li>
-      <li><a href="p-footcare-ro.html">Ingrijire Piciorului</a></li>
-      <li><a href="p-chirurgy-ro.html">Chirurgie</a></li>
-      <li><a href="p-orthopedics-ro.html">Ortopedie</a></li>
-      <li><a href="p-physiotherapy.html">Fizioterapie</a></li>
-      <li><a href="p-kinetotherapy.html">Kinetoterapie</a></li>
-      <li><a href="p-sport-recovery.html">Recuperare Sportiva</a></li>
-      <li><a href="p-cryo-ro.html">Criosauna</a></li>
-      <a href="echipamente.html" title="ECHIPAMENTE">ECHIPAMENTE</a>
-      <a href="despre.html" title="DESPRE NOI">DESPRE NOI</a>
-      <a href="blog.html" title="TERMENI SI CONDITII">BLOG</a>
+      <li><a href="/index.html"><img src="logo.png" alt=""></a></li>
+      <li><a href="/html/p-podology-ro.html">Evaluare Podologica</a></li>
+      <li><a href="/html/p-footcare-ro.html">Ingrijire Piciorului</a></li>
+      <li><a href="/html/p-chirurgy-ro.html">Chirurgie</a></li>
+      <li><a href="/html/p-orthopedics-ro.html">Ortopedie</a></li>
+      <li><a href="/html/p-physiotherapy.html">Fizioterapie</a></li>
+      <li><a href="/html/p-kinetotherapy.html">Kinetoterapie</a></li>
+      <li><a href="/html/p-sport-recovery.html">Recuperare Sportiva</a></li>
+      <li><a href="/html/p-cryo-ro.html">Criosauna</a></li>
+      <a href="/html/echipamente.html" title="ECHIPAMENTE">ECHIPAMENTE</a>
+      <a href="/html/despre.html" title="DESPRE NOI">DESPRE NOI</a>
+      <a href="/html/blog.html" title="TERMENI SI CONDITII">BLOG</a>
     </nav>
   </header>
   <section class="prezentare">
     <img src="/img/sis.png" alt="sis" />
     <img src="/img/optica.png" alt="" />
-    <a href="despre.html" title="DESPRE NOI" class="subtitlu">Suntem...</a>
+    <a href="/html/despre.html" title="DESPRE NOI" class="subtitlu">Suntem...</a>
     <p>
       Un grup de oameni pasionați de a oferi un suport medical profesionist prin metode non-invazive, cu ajutorul
       aparaturii și tehnicilor moderne, promovând
       un stil de viață sănătos
     </p>
-    <img src="/img/shock.png" style="width: 100%; height: 300px" alt="" />
+    <img src="/img/shock.png" alt="" />
     <p class="subtitlu">Abordare holistică și personalizată, cu tehnologie de ultimă generație </p>
     <p>Terapeuții noștri aleg în echipă planul de tratament potrivit. Aparatura este la standarde internaționale.
       Tehnicile moderne sunt dovedite clinic.</p>
@@ -69,7 +69,6 @@
       recuperare sportivă. Bucură-te de
       sănătatea ta în fiecare clipă!
     </p>
-    <!-- <a onclick="scrollToForm()"><h2>HAI LA CLINICA JULIA!</h2></a> -->
   </section>
   <section class="locatie">
     <div class="cardLocatie card1">
@@ -178,12 +177,13 @@
         <option value="4">Bucuresti</option>
       </select><br />
       <textarea name="text" id="text" cols="20" rows="3" placeholder="Detalii suplimentare"></textarea><br />
-      <input type="submit" value="Trimite" onclick="alert('ALERT')" />
+      <!-- <input type="submit" value="Trimite" onclick="alert('ALERT')" /> -->
+      <input type="submit" value="Trimite" onclick="submitForm()" />
       <div>
         <input type="checkbox" name="sub" id="sub" />
-        <label for="sub">Doresc sa fiu insiinta despre urmatoarele oferte sau campanii</label><br />
+        <label for="sub">Doresc sa fiu instiint(a) despre urmatoarele oferte sau campanii</label><br />
         <input type="checkbox" name="TsC" id="TsC" required />
-        <label for="TsC"><a href="#popup1" onclick="showTNS()" title="Termeni si conditii" id="TnS">Am citit si sunt de
+        <label for="TsC"><a href="#popup1" title="Termeni si conditii" id="TnS">Am citit si sunt de
             acord cu termenii si conditiile</a></label>
       </div>
       
@@ -317,7 +317,9 @@
     <div onclick="goToTop()">
       <img src="/img/up-arrow.gif" alt="up-arrow.gif" />
     </div>
+    <p>
     &copy;CLINICA JULIA 2017-PREZENT
+    </p>
   </footer>
 </body>
 

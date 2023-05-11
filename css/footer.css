@@ -1,11 +1,16 @@
 footer{
     margin: 5% 0;
-    display: flex;
+    /* display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-between; */
 }
 footer img{
+    text-align: left;
     cursor: pointer;
-    width: 10%;
+    width: 5%;
+    text-align: left;
+}
+footer p{
+    font-size: 12px;
+    text-align: right;
 }

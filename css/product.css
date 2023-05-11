@@ -22,32 +22,33 @@ h1{
 h2{
     text-align: center;
 }
-section{
-    margin-top: 10%;
-}
 div li, div li:hover {
     cursor: auto;
     background-color: white;
     list-style-image: url(/img/arrow.png);
 }
-
+section{
+    margin-top: 10%;
+}
 section img{
     width: 30%;
     height: 30%;
 }
 #preturi{
-    overflow-x: auto;
+    overflow-x: hidden;
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
     gap: 10%;
 }
+table{
+    font-size: 50%;
+}
 table,tr,td{
     word-wrap: break-word;
     padding: 1%;
     text-align: center;
-    font-size: 2ch;
     border-collapse: collapse;
     border: 5px double pink;
 }
@@ -73,8 +74,8 @@ table,tr,td{
         margin-top: 5%;
         height: 50vh;
     }
-    table caption{
-        font-size: 3ch;
+    table{
+        font-size: 26px;
     }
 
 }
